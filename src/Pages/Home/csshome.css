@@ -1,0 +1,23 @@
+.botao-cta {
+
+    display: inline-block;
+  
+    padding: 10px 20px;
+  
+    background-color: #02ad49;
+  
+    color: #000000;
+  
+    text-decoration-style: solid;
+  
+    border: none;
+  
+    border-radius: 5px;
+  
+    font-size: 16px;
+  
+    text-align: center;
+  
+    cursor: pointer;
+  
+  }
