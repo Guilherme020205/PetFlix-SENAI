@@ -18,7 +18,7 @@ const filme = [
         data_lancamento: "2005",
         descricao: "A vida é difícil para o filho do mineiro de Yorkshire, Joe Carraclough (Jonathan Mason), que é espancado na escola por seu professor, seu único consolo é seu collie Lassie. Fica pior: quando a mina é desativada, seu pai, Sam (John Lynch), é forçado a vender o cachorro para o Duque (Peter O Toole), que é dono da propriedade local. O servo do Duque, Hynes (Steve Pemberton), assusta o cachorro, que continua correndo de volta, então os Carracloughs têm que continuar devolvendo-a, até que o Duque se mude para as Terras Altas da Escócia para a temporada de férias. Lassie escapa, embarcando em uma jornada desesperada para casa, com assustadores apanhadores de cães de Glasgow e acolhida por um artista de circo. Parece que um milagre é necessário, até o Natal.",
         capa: "./img/Lassie.jpg",
-        genero: 2
+        genero: 1
     },
     {
         id: 2,
