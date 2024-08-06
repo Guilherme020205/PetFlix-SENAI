@@ -1,0 +1,37 @@
+Header {
+    height: 100%;
+    background-color: #cc8c03;
+}
+
+.botao-cta {
+
+    display: inline-block;
+  
+    padding: 10px 20px;
+  
+    background-color: #c58702;
+  
+    color: #000000;
+  
+    text-decoration-style: solid;
+  
+    border: none;
+  
+    border-radius: 5px;
+  
+    font-size: 16px;
+  
+    text-align: center;
+  
+    cursor: pointer;
+  
+}
+
+.logoFooter {
+    float: right;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
