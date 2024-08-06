@@ -1,5 +1,6 @@
 // ID do gênero recebido, que pode ser usado para filtrar filmes
 // id_genero_recebido = 1;
+
 // Obtém o ID do genero armazenado no localStorage e converte para inteiro
 const id_recebido = parseInt(localStorage.getItem('userIdgenero'), 10);
 
