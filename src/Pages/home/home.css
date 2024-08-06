@@ -1,33 +1,37 @@
-Header {
-    height: 100%;
-    background-color: #cc8c03;
+
+.perfis{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+} 
+.perfis button{
+    border: solid 1px  rgb(255, 189, 6);
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    /* width: 300px; */
+    margin-top: 70px ;
+    padding: 50px;
+
+}
+.card_perfil_1:hover{
+    background-color: rgba(255, 64, 6, 0.658);
+    color: white;
+    transform: scale(1.2)
+    
+}
+.card_perfil_2:hover{
+    background-color: rgba(228, 111, 16, 0.411);
+    color: white;
+    transform: scale(1.2)
+}
+.perfis img{
+width: 200px;
+height: 200px;
 }
 
-.botao-cta {
-
-    display: inline-block;
-  
-    padding: 10px 20px;
-  
-    background-color: #c58702;
-  
-    color: #000000;
-  
-    text-decoration-style: solid;
-  
-    border: none;
-  
-    border-radius: 5px;
-  
-    font-size: 16px;
-  
-    text-align: center;
-  
-    cursor: pointer;
-  
-}
-
-img {
-    width: 100px;
-    height: 100px;
-}
