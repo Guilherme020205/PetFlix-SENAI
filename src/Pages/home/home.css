@@ -1,4 +1,3 @@
-
 .perfis{
    
     display: flex;
@@ -17,7 +16,7 @@
     /* width: 300px; */
     margin-top: 70px ;
     padding: 50px;
-
+    cursor: pointer;
 }
 .card_perfil_1:hover{
     background-color: rgba(255, 64, 6, 0.658);
