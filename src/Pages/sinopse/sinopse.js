@@ -16,13 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (filmeSelecionado) {
         const { titulo, tempo, data_lancamento, descricao, capa } = filmeSelecionado;
 
-        const box_snopse = document.querySelector('.box_snopse'); 
+        const box_sinopse = document.querySelector('.box_sinopse'); 
 
-        box_snopse.querySelector('.capa_filme').src = capa;
-        box_snopse.querySelector('.titulo_filme').textContent = titulo;
-        box_snopse.querySelector('.tempo_filme').textContent = tempo;
-        box_snopse.querySelector('.data_lancamento_filme').textContent = data_lancamento;
-        box_snopse.querySelector('.descricao_filme').textContent = descricao;
+        box_sinopse.querySelector('.capa_filme').src = capa;
+        box_sinopse.querySelector('.titulo_filme').textContent = titulo;
+        box_sinopse.querySelector('.tempo_filme').textContent = tempo;
+        box_sinopse.querySelector('.data_lancamento_filme').textContent = data_lancamento;
+        box_sinopse.querySelector('.descricao_filme').textContent = descricao;
     } else {
         console.error('Filme com o id fornecido não foi encontrado.');
     }
