@@ -23,6 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
         capa.src = filme.capa;
         capa.classList.add('capa_filme');
 
+        const cardElement = document.createElement("div");
+        cardElement.classList.add("cardBaixo");
+
         // Cria e configura o elemento de texto do título do filme
         const titulo = document.createElement('p');
         titulo.textContent = filme.titulo;
@@ -30,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Cria e configura o botão para ver a sinopse do filme
         const sinopseButton = document.createElement('button');
-        sinopseButton.textContent = 'Ver Sinopse'; // Corrigido "Snopse" para "Sinopse"
+        sinopseButton.textContent = 'Sinopse'; // Corrigido "Snopse" para "Sinopse"
         sinopseButton.classList.add('sinopseButton');
         sinopseButton.onclick = () => {
             // Armazena o ID do filme no localStorage
@@ -43,11 +46,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Adiciona os elementos criados ao elemento do filme
         filmeElement.appendChild(capa);
-        filmeElement.appendChild(titulo);
-        filmeElement.appendChild(sinopseButton);
+        cardElement.appendChild(titulo);
+        cardElement.appendChild(sinopseButton);
 
         // Adiciona o elemento do filme ao container
         container.appendChild(filmeElement);
+        filmeElement.appendChild(cardElement)
     });
 });
 
