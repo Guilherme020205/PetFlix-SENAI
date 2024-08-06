@@ -26,3 +26,12 @@ Header {
     cursor: pointer;
   
 }
+
+.logoFooter {
+    float: right;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
