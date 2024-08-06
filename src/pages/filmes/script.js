@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Monta a URL para a página de sinopse com base na URL atual
             const baseUrl = window.location.origin + window.location.pathname.substring(0, window.location.pathname.indexOf('/filmes/'));
-            window.location.href = `${baseUrl}/snopse/Snopse.html`;
+            window.location.href = `${baseUrl}/sinopse/sinopse.html`;
         };
 
         // Adiciona os elementos criados ao elemento do filme
