@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const tempo = filme[id_recebido].tempo // Tempo do filme
     const data_lancamento = filme[id_recebido].data_lancamento // Data lançamento do filme
     const descricao = filme[id_recebido].descricao // Descrição do filme
-    const capa = filme[id_recebido].descricao // Link capa 
+    const capa = filme[id_recebido].capa // Link capa 
 
     // Pegando os elementos
     const box_snopse = document.querySelector('.box_snopse') 
