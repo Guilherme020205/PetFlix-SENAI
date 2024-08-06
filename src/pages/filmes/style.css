@@ -2,8 +2,14 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.container .filme {
+    background-color: lightgray;
+    margin-bottom: 10px;
 }
 
 .container .capa_filme {
@@ -11,3 +17,18 @@
     width: 300px;
 }
 
+.container .filme .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .filme .card p {
+    font-size: 20px;
+}
+
+.container .filme .card .sinopse {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}

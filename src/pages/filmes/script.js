@@ -13,13 +13,25 @@ document.addEventListener('DOMContentLoaded', () => {
         capa.src = filme.capa;
         capa.classList.add('capa_filme');
 
+        const cardElement = document.createElement('div');
+        cardElement.classList.add('card');
+
         const titulo = document.createElement('p');
         titulo.textContent = filme.titulo;
         titulo.classList.add('titulo_filme');
 
+        const sinopse = document.createElement('button');
+        sinopse.textContent = '🔍';
+        sinopse.classList.add('sinopse');
+
         filmeElement.appendChild(capa);
-        filmeElement.appendChild(titulo);
+        cardElement.appendChild(titulo);
+        cardElement.appendChild(sinopse);
 
         container.appendChild(filmeElement);
+        filmeElement.appendChild(cardElement);
+
+        // Busca os elementos e já coloca as informações 
+        //  container.querySelector('.capa_filme').src = filme.capa;
     });
 });
