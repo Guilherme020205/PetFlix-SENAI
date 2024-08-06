@@ -5,22 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../style_padrao.css">
+    <link rel="stylesheet" href="../style_header.css">
+    <link rel="stylesheet" href="./Snopse.css">
 </head>
 
 <body>
+    <header>
+        <div>
+            <button class="botao" id="buttonVoltar">Voltar</button>
+            <img src="../../../dados/img/logo_sem_fundo.png" alt="logo">
+        </div>
+    </header>
 
     <div class="box_snopse">
         <img class="capa_filme" alt="capa do filme" width="50px" height="50px">
-        <p class="titulo_filme"></p>
-        <p class="tempo_filme"></p>
-        <p class="data_lancamento_filme"></p>
-        <p class="descricao_filme"></p>
-        <button id="trailerButton">TRAILER</button>
+        <div class="box1">
+            <h1 class="titulo_filme"></h1>
+            <button id="trailerButton">TRAILER</button>
+            <p class="tempo_filme"></p>
+            <p class="data_lancamento_filme"></p>
+            <h2 class="descricao_filme"></h2>
+        </div>
     </div>
 
+    <script src="../../../dados/dados.js"></script>
+    <script src="../../../dados/img/*"></script>
     <script src="ButtonTrailer.js"></script>
     <script src="Snopse.js"></script>
-    <script src="../../../dados/dados.js"></script>
+    <script src="../../Functions/botãovoltar.js"></script>
 </body>
 
 </html>
