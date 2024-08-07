@@ -5,38 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scooby do it</title>
-    <link rel="stylesheet" href="../style_padrao.css">
-    <link rel="stylesheet" href="../style_header.css">
-    <link rel="stylesheet" href="./sinopse.css">
+    <link rel="stylesheet" href="sinopse.css">
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="alinhar-elementos">
             <button class="botao" id="buttonVoltar">Voltar</button>
-            <img src="../../../dados/img/logo_sem_fundo.png" alt="logo">
+            <a href="../Home/home.html">
+                <img src="../../../dados/img/logo_sem_fundo.png" alt="Scooby do it">
+            </a>
         </div>
     </header>
 
-    <div class="box_sinopse">
-        <img class="capa_filme" alt="capa do filme">
-        <div class="box1">
-            <div class="row">
-                <h1 class="titulo_filme"></h1>
-                <button id="trailerButton">TRAILER</button>
-            </div>
-            <div class="data-lancamento">
-                <p class="tempo_filme"></p>
-                <p class="data_lancamento_filme"></p>
-            </div>
+    <main>
+        <div class="box_sinopse">
+            <div class="box-card">
+                <div class="card">
+                    <img class="capa_filme" alt="capa do filme">
+                </div>
+                <div class="card">
+                    <div class="alinhar-titulo-botao">
+                        <h1 class="titulo_filme"></h1>
+                        <button id="trailerButton">TRAILER</button>
+                    </div>
+                    <div class="alinhar-duracao-lancamento">
+                        <p class="tempo_filme"></p>
+                        <p class="data_lancamento_filme"></p>
+                    </div>
 
-            <h2 class="descricao_filme"></h2>
+                    <p class="descricao_filme"></p>
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
 
     <script src="../../../dados/dados.js"></script>
-    <script src="../../../dados/img/*"></script>
-    <script src="ButtonTrailer.js"></script>
     <script src="sinopse.js"></script>
     <script src="../../Functions/botãovoltar.js"></script>
 </body>
