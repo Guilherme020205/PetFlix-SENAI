@@ -24,12 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         capa.classList.add('capa_filme');
 
         const cardElement = document.createElement("div");
-        cardElement.classList.add("cardBaixo");
-
-        // Cria e configura o elemento de texto do título do filme
-        const titulo = document.createElement('p');
-        titulo.textContent = filme.titulo;
-        titulo.classList.add('titulo_filme');
+        cardElement.classList.add("cardBaixo"); 
 
         // Cria e configura o botão para ver a sinopse do filme
         const sinopseButton = document.createElement('button');
@@ -45,8 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         // Adiciona os elementos criados ao elemento do filme
-        filmeElement.appendChild(capa);
-        cardElement.appendChild(titulo);
+        filmeElement.appendChild(capa); 
         cardElement.appendChild(sinopseButton);
 
         // Adiciona o elemento do filme ao container
