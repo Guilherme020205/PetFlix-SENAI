@@ -1,0 +1,37 @@
+header {
+    background-color: rgb(255, 189, 6);
+    position: fixed;
+    padding: 0px 1%;
+    width: 100%;
+}
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botao{
+    background-color: #2196F3;
+    border: none;
+    color: #fff;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+    height: min-content;
+}
+.botao:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+header img{
+    width: 130px;
+    height: 100px;
+}

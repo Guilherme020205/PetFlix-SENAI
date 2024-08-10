@@ -1,0 +1,36 @@
+.perfis{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+} 
+.perfis button{
+    border: solid 1px  rgb(255, 189, 6);
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    /* width: 300px; */
+    margin-top: 200px ;
+    padding: 50px;
+    cursor: pointer;
+}
+.card_perfil_1:hover{
+    background-color: rgba(255, 64, 6, 0.658);
+    color: white;
+    transform: scale(1.2)
+    
+}
+.card_perfil_2:hover{
+    background-color: rgba(228, 111, 16, 0.411);
+    color: white;
+    transform: scale(1.2)
+}
+.perfis img{
+width: 200px;
+height: 200px;
+}
+

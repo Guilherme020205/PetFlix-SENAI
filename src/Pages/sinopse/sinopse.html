@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scooby do it</title>
+    <link rel="stylesheet" href="sinopse.css">
+</head>
+
+<body>
+    <header>
+        <div class="alinhar-elementos">
+            <button class="botao" id="buttonVoltar">Voltar</button>
+            <a href="../Home/home.html">
+                <img src="../../../dados/img/logo_sem_fundo.png" alt="Scooby do it">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="box_sinopse">
+            <div class="box-card">
+                <div class="card">
+                    <img class="capa_filme" alt="capa do filme">
+                </div>
+                <div class="card">
+                    <div class="alinhar-titulo-botao">
+                        <h1 class="titulo_filme"></h1>
+                        <button id="trailerButton">TRAILER</button>
+                    </div>
+                    <div class="alinhar-duracao-lancamento">
+                        <p class="tempo_filme"></p>
+                        <p class="data_lancamento_filme"></p>
+                    </div>
+
+                    <p class="descricao_filme"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../../../dados/dados.js"></script>
+    <script src="sinopse.js"></script>
+    <script src="../../Functions/botãovoltar.js"></script>
+</body>
+
+</html>

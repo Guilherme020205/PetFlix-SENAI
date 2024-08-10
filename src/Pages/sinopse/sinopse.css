@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 189, 6);
+}
+
+header .alinhar-elementos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 15px;
+}
+
+header .alinhar-elementos .botao {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header .alinhar-elementos .botao:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+header .alinhar-elementos a {
+    width: 130px;
+    height: 100px;
+}
+
+header .alinhar-elementos img {
+    width: 130px;
+    height: 100px;
+}
+
+.box_sinopse {
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+}
+
+.box_sinopse .box-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    padding-left: 50px;
+}
+
+.box_sinopse .box-card .card {
+    height: 320px;
+}
+
+.box_sinopse .box-card .card .capa_filme {
+    width: 200px;
+    height: 320px;
+    border-radius: 15px;
+}
+
+.box_sinopse .box-card .card .alinhar-titulo-botao {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.box_sinopse .box-card .card .alinhar-duracao-lancamento {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 10px;
+    gap: 5px;
+}
+
+.box_sinopse .box-card .card .descricao_filme {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.box_sinopse .box-card .card #trailerButton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100px;
+
+}
+
+.box_sinopse .box-card .card #trailerButton:hover {
+    background-color: lightgray;
+    color: #000;
+    transition: 0.5s;
+}
